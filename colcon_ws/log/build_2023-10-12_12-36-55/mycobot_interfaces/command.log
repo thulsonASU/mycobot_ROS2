@@ -1,0 +1,4 @@
+Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble MYSQL_PS1=(\u@\h) [\d]> /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j16 -l16
+Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble MYSQL_PS1=(\u@\h) [\d]> /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j16 -l16
+Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble MYSQL_PS1=(\u@\h) [\d]> /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble MYSQL_PS1=(\u@\h) [\d]> /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces

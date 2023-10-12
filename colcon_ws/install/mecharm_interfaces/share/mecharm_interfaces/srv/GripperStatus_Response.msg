@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mecharm_interfaces/rosidl_cmake/srv/GripperStatus_Response.msg

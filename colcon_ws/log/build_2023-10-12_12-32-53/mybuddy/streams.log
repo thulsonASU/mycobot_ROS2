@@ -1,0 +1,56 @@
+[6.186s] Invoking command in '/home/tyler/colcon_ws/build/mybuddy': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mybuddy/prefix_override:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mybuddy/build
+[6.953s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.953s]   warnings.warn(
+[7.038s] running develop
+[7.039s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.039s]   warnings.warn(
+[7.043s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.043s]   warnings.warn(
+[7.520s] Removing /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy.egg-link (link to .)
+[7.739s] Invoked command in '/home/tyler/colcon_ws/build/mybuddy' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mybuddy/prefix_override:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mybuddy/build
+[7.743s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/Mybuddy/mybuddy': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mybuddy/prefix_override:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mybuddy build --build-base /home/tyler/colcon_ws/build/mybuddy/build install --record /home/tyler/colcon_ws/build/mybuddy/install.log --install-scripts $base/lib/mybuddy --single-version-externally-managed
+[8.426s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.427s]   warnings.warn(
+[8.442s] running egg_info
+[8.443s] writing ../../../../build/mybuddy/mybuddy.egg-info/PKG-INFO
+[8.444s] writing dependency_links to ../../../../build/mybuddy/mybuddy.egg-info/dependency_links.txt
+[8.445s] writing entry points to ../../../../build/mybuddy/mybuddy.egg-info/entry_points.txt
+[8.446s] writing requirements to ../../../../build/mybuddy/mybuddy.egg-info/requires.txt
+[8.446s] writing top-level names to ../../../../build/mybuddy/mybuddy.egg-info/top_level.txt
+[8.447s] reading manifest file '../../../../build/mybuddy/mybuddy.egg-info/SOURCES.txt'
+[8.448s] writing manifest file '../../../../build/mybuddy/mybuddy.egg-info/SOURCES.txt'
+[8.449s] running build
+[8.449s] running build_py
+[8.449s] creating /home/tyler/colcon_ws/build/mybuddy/build
+[8.449s] creating /home/tyler/colcon_ws/build/mybuddy/build/lib
+[8.450s] creating /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.450s] copying mybuddy/follow_display.py -> /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.451s] copying mybuddy/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.451s] copying mybuddy/listen_real.py -> /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.452s] copying mybuddy/__init__.py -> /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.452s] copying mybuddy/slider_control.py -> /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy
+[8.453s] running install
+[8.453s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.453s]   warnings.warn(
+[8.453s] running install_lib
+[8.453s] creating /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.453s] copying /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy/follow_display.py -> /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.454s] copying /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.454s] copying /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy/listen_real.py -> /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.454s] copying /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy/__init__.py -> /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.454s] copying /home/tyler/colcon_ws/build/mybuddy/build/lib/mybuddy/slider_control.py -> /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy
+[8.454s] byte-compiling /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy/follow_display.py to follow_display.cpython-310.pyc
+[8.456s] byte-compiling /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[8.458s] byte-compiling /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy/listen_real.py to listen_real.cpython-310.pyc
+[8.460s] byte-compiling /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy/__init__.py to __init__.cpython-310.pyc
+[8.460s] byte-compiling /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy/slider_control.py to slider_control.cpython-310.pyc
+[8.460s] running install_data
+[8.461s] running install_egg_info
+[8.466s] Copying ../../../../build/mybuddy/mybuddy.egg-info to /home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy-0.0.0-py3.10.egg-info
+[8.467s] running install_scripts
+[8.501s] Installing follow_display script to /home/tyler/colcon_ws/install/mybuddy/lib/mybuddy
+[8.501s] Installing listen_real script to /home/tyler/colcon_ws/install/mybuddy/lib/mybuddy
+[8.501s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mybuddy/lib/mybuddy
+[8.501s] Installing slider_control script to /home/tyler/colcon_ws/install/mybuddy/lib/mybuddy
+[8.502s] writing list of installed files to '/home/tyler/colcon_ws/build/mybuddy/install.log'
+[8.640s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/Mybuddy/mybuddy' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mybuddy/prefix_override:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mybuddy build --build-base /home/tyler/colcon_ws/build/mybuddy/build install --record /home/tyler/colcon_ws/build/mybuddy/install.log --install-scripts $base/lib/mybuddy --single-version-externally-managed

@@ -1,0 +1,41 @@
+[1.298s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_description': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build
+[1.692s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.692s]   warnings.warn(
+[1.743s] running develop
+[1.744s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.744s]   warnings.warn(
+[1.746s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.746s]   warnings.warn(
+[2.017s] Removing /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot-description.egg-link (link to .)
+[2.065s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_description' returned '0': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build
+[2.068s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/tyler/colcon_ws/build/mycobot_description/build install --record /home/tyler/colcon_ws/build/mycobot_description/install.log --install-scripts $base/lib/mycobot_description --single-version-externally-managed
+[2.473s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.473s]   warnings.warn(
+[2.487s] running egg_info
+[2.488s] writing ../../../build/mycobot_description/mycobot_description.egg-info/PKG-INFO
+[2.489s] writing dependency_links to ../../../build/mycobot_description/mycobot_description.egg-info/dependency_links.txt
+[2.489s] writing entry points to ../../../build/mycobot_description/mycobot_description.egg-info/entry_points.txt
+[2.489s] writing requirements to ../../../build/mycobot_description/mycobot_description.egg-info/requires.txt
+[2.489s] writing top-level names to ../../../build/mycobot_description/mycobot_description.egg-info/top_level.txt
+[2.493s] reading manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[2.494s] adding license file 'LICENSE'
+[2.498s] writing manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.498s] running build_py
+[2.498s] creating /home/tyler/colcon_ws/build/mycobot_description/build
+[2.499s] creating /home/tyler/colcon_ws/build/mycobot_description/build/lib
+[2.499s] creating /home/tyler/colcon_ws/build/mycobot_description/build/lib/mycobot_description
+[2.499s] copying mycobot_description/__init__.py -> /home/tyler/colcon_ws/build/mycobot_description/build/lib/mycobot_description
+[2.499s] running install
+[2.500s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.500s]   warnings.warn(
+[2.501s] running install_lib
+[2.502s] creating /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description
+[2.502s] copying /home/tyler/colcon_ws/build/mycobot_description/build/lib/mycobot_description/__init__.py -> /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description
+[2.503s] byte-compiling /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description/__init__.py to __init__.cpython-310.pyc
+[2.503s] running install_data
+[2.509s] running install_egg_info
+[2.512s] Copying ../../../build/mycobot_description/mycobot_description.egg-info to /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info
+[2.513s] running install_scripts
+[2.550s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_description/install.log'
+[2.591s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description' returned '0': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/tyler/colcon_ws/build/mycobot_description/build install --record /home/tyler/colcon_ws/build/mycobot_description/install.log --install-scripts $base/lib/mycobot_description --single-version-externally-managed

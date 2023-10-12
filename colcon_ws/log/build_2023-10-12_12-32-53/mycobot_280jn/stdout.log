@@ -1,0 +1,70 @@
+running develop
+Removing /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot-280jn.egg-link (link to .)
+running egg_info
+writing ../../../../build/mycobot_280jn/mycobot_280jn.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mycobot_280jn/mycobot_280jn.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mycobot_280jn/mycobot_280jn.egg-info/entry_points.txt
+writing requirements to ../../../../build/mycobot_280jn/mycobot_280jn.egg-info/requires.txt
+writing top-level names to ../../../../build/mycobot_280jn/mycobot_280jn.egg-info/top_level.txt
+reading manifest file '../../../../build/mycobot_280jn/mycobot_280jn.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/mycobot_280jn/mycobot_280jn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tyler/colcon_ws/build/mycobot_280jn/build
+creating /home/tyler/colcon_ws/build/mycobot_280jn/build/lib
+creating /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/detect_marker.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/follow_display.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/camera_display.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/opencv_camera.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/listen_real.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/teleop_keyboard.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/__init__.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/follow_and_pump.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/slider_control.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/following_marker.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+copying mycobot_280jn/simple_gui.py -> /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn
+running install
+running install_lib
+creating /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/detect_marker.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/follow_display.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/camera_display.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/opencv_camera.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/listen_real.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/__init__.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/follow_and_pump.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/slider_control.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/following_marker.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+copying /home/tyler/colcon_ws/build/mycobot_280jn/build/lib/mycobot_280jn/simple_gui.py -> /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/detect_marker.py to detect_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/follow_display.py to follow_display.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/camera_display.py to camera_display.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/opencv_camera.py to opencv_camera.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/listen_real.py to listen_real.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/slider_control.py to slider_control.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/following_marker.py to following_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn/simple_gui.py to simple_gui.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/mycobot_280jn/mycobot_280jn.egg-info to /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot_280jn-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_280jn/install.log'

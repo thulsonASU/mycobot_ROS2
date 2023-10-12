@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c

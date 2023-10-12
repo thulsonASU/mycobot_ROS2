@@ -1,0 +1,12 @@
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalAngles.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalCoords.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalSetAngles.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalSetCoords.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalGripperStatus.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:msg/MypalPumpStatus.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/GetAngles.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/SetAngles.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/GetCoords.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/SetCoords.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/GripperStatus.idl
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_adapter/mypalletizer_interfaces:srv/PumpStatus.idl

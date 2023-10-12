@@ -1,0 +1,37 @@
+[1.679s] Invoking command in '/home/tyler/colcon_ws/build/mypalletizer_communication': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mypalletizer_communication/prefix_override:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mypalletizer_communication/build --no-deps install_data
+[2.029s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.029s]   warnings.warn(
+[2.074s] running develop
+[2.074s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.074s]   warnings.warn(
+[2.076s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.076s]   warnings.warn(
+[2.331s] running egg_info
+[2.331s] creating mypalletizer_communication.egg-info
+[2.332s] writing mypalletizer_communication.egg-info/PKG-INFO
+[2.332s] writing dependency_links to mypalletizer_communication.egg-info/dependency_links.txt
+[2.332s] writing entry points to mypalletizer_communication.egg-info/entry_points.txt
+[2.332s] writing requirements to mypalletizer_communication.egg-info/requires.txt
+[2.333s] writing top-level names to mypalletizer_communication.egg-info/top_level.txt
+[2.333s] writing manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+[2.335s] reading manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+[2.337s] writing manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+[2.339s] running build_ext
+[2.339s] Creating /home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages/mypalletizer-communication.egg-link (link to .)
+[2.341s] Installing mypalletizer_services script to /home/tyler/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[2.341s] Installing mypalletizer_topics script to /home/tyler/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[2.341s] Installing mypalletizer_topics_seeed script to /home/tyler/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[2.341s] 
+[2.342s] Installed /home/tyler/colcon_ws/build/mypalletizer_communication
+[2.342s] running install_data
+[2.342s] creating /home/tyler/colcon_ws/install/mypalletizer_communication/share/ament_index
+[2.342s] creating /home/tyler/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index
+[2.342s] creating /home/tyler/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[2.343s] copying resource/mypalletizer_communication -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[2.343s] copying package.xml -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication
+[2.343s] creating /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[2.343s] copying launch/communication_service.launch.py -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[2.343s] copying launch/communication_seeed.launch.py -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[2.343s] copying launch/communication_topic_pi.launch.py -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[2.343s] copying launch/communication_topic.launch.py -> /home/tyler/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[2.389s] Invoked command in '/home/tyler/colcon_ws/build/mypalletizer_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mypalletizer_communication/prefix_override:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mypalletizer_communication/build --no-deps install_data

@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/rosidl_generator_py/mypalletizer_interfaces/srv/_set_angles_s.c

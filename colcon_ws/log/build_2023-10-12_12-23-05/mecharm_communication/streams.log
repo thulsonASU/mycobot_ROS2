@@ -1,0 +1,40 @@
+[1.499s] Invoking command in '/home/tyler/colcon_ws/build/mecharm_communication': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm_communication/prefix_override:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mecharm_communication/build --no-deps install_data
+[1.895s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.896s]   warnings.warn(
+[1.947s] running develop
+[1.949s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.949s]   warnings.warn(
+[1.950s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.950s]   warnings.warn(
+[2.218s] running egg_info
+[2.219s] creating mecharm_communication.egg-info
+[2.219s] writing mecharm_communication.egg-info/PKG-INFO
+[2.219s] writing dependency_links to mecharm_communication.egg-info/dependency_links.txt
+[2.219s] writing entry points to mecharm_communication.egg-info/entry_points.txt
+[2.219s] writing requirements to mecharm_communication.egg-info/requires.txt
+[2.219s] writing top-level names to mecharm_communication.egg-info/top_level.txt
+[2.220s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[2.222s] reading manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[2.223s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[2.225s] running build_ext
+[2.226s] Creating /home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm-communication.egg-link (link to .)
+[2.229s] Installing mecharm_services script to /home/tyler/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[2.229s] Installing mycobot_topics script to /home/tyler/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[2.229s] Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[2.230s] Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[2.230s] Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[2.231s] 
+[2.231s] Installed /home/tyler/colcon_ws/build/mecharm_communication
+[2.231s] running install_data
+[2.232s] creating /home/tyler/colcon_ws/install/mecharm_communication/share/ament_index
+[2.232s] creating /home/tyler/colcon_ws/install/mecharm_communication/share/ament_index/resource_index
+[2.232s] creating /home/tyler/colcon_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[2.232s] copying resource/mecharm_communication -> /home/tyler/colcon_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[2.232s] copying package.xml -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication
+[2.232s] creating /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.233s] copying launch/communication_service.launch.py -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.233s] copying launch/communication_seeed.launch.py -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.233s] copying launch/communication_topic_pi.launch.py -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.233s] copying launch/communication_topic.launch.py -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.233s] copying launch/communication_jsnn.launch.py -> /home/tyler/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[3.227s] Invoked command in '/home/tyler/colcon_ws/build/mecharm_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm_communication/prefix_override:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mecharm_communication/build --no-deps install_data

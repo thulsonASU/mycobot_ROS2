@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_cpp/mycobot_interfaces/srv/detail/gripper_status__struct.hpp

@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mypalletizer_interfaces/ament_cmake_environment_hooks/pythonpath.sh

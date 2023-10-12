@@ -1,0 +1,61 @@
+[1.915s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[2.271s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.271s]   warnings.warn(
+[2.317s] running develop
+[2.317s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.318s]   warnings.warn(
+[2.320s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.320s]   warnings.warn(
+[2.559s] Removing /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+[2.614s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[2.616s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --install-scripts $base/lib/mycobot_communication --single-version-externally-managed
+[2.971s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.971s]   warnings.warn(
+[2.983s] running egg_info
+[2.985s] writing ../../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+[2.985s] writing dependency_links to ../../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+[2.985s] writing entry points to ../../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+[2.985s] writing requirements to ../../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+[2.985s] writing top-level names to ../../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+[2.989s] reading manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[2.990s] adding license file 'LICENSE'
+[2.990s] writing manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[2.990s] running build
+[2.990s] running build_py
+[2.991s] creating /home/tyler/colcon_ws/build/mycobot_communication/build
+[2.991s] creating /home/tyler/colcon_ws/build/mycobot_communication/build/lib
+[2.992s] creating /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.992s] copying mycobot_communication/mycobot_topics_seeed.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.992s] copying mycobot_communication/mycobot_topics.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.992s] copying mycobot_communication/mycobot_services.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.992s] copying mycobot_communication/__init__.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.993s] copying mycobot_communication/mycobot_topics_jsnn.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.993s] copying mycobot_communication/mycobot_topics_pi.py -> /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication
+[2.993s] running install
+[2.993s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.993s]   warnings.warn(
+[2.993s] running install_lib
+[2.993s] creating /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.994s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_seeed.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.994s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.994s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_services.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.994s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/__init__.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.995s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_jsnn.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.995s] copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_pi.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+[2.998s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_seeed.py to mycobot_topics_seeed.cpython-310.pyc
+[3.000s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics.py to mycobot_topics.cpython-310.pyc
+[3.000s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_services.py to mycobot_services.cpython-310.pyc
+[3.002s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/__init__.py to __init__.cpython-310.pyc
+[3.002s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_jsnn.py to mycobot_topics_jsnn.cpython-310.pyc
+[3.004s] byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_pi.py to mycobot_topics_pi.cpython-310.pyc
+[3.006s] running install_data
+[3.007s] running install_egg_info
+[3.010s] Copying ../../../build/mycobot_communication/mycobot_communication.egg-info to /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info
+[3.011s] running install_scripts
+[3.045s] Installing mycobot_services script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[3.045s] Installing mycobot_topics script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[3.045s] Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[3.046s] Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[3.046s] Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[3.046s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_communication/install.log'
+[3.431s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --install-scripts $base/lib/mycobot_communication --single-version-externally-managed

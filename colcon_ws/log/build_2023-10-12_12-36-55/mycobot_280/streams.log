@@ -1,0 +1,35 @@
+[2.376s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mycobot_280 build --build-base /home/tyler/colcon_ws/build/mycobot_280/build install --record /home/tyler/colcon_ws/build/mycobot_280/install.log --install-scripts $base/lib/mycobot_280 --single-version-externally-managed
+[2.771s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.771s]   warnings.warn(
+[2.783s] running egg_info
+[2.785s] writing ../../../../build/mycobot_280/mycobot_280.egg-info/PKG-INFO
+[2.786s] writing dependency_links to ../../../../build/mycobot_280/mycobot_280.egg-info/dependency_links.txt
+[2.786s] writing entry points to ../../../../build/mycobot_280/mycobot_280.egg-info/entry_points.txt
+[2.786s] writing requirements to ../../../../build/mycobot_280/mycobot_280.egg-info/requires.txt
+[2.786s] writing top-level names to ../../../../build/mycobot_280/mycobot_280.egg-info/top_level.txt
+[2.789s] reading manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[2.790s] adding license file 'LICENSE'
+[2.791s] writing manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.791s] running build_py
+[2.792s] running install
+[2.793s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.793s]   warnings.warn(
+[2.793s] running install_lib
+[2.796s] running install_data
+[2.798s] running install_egg_info
+[2.801s] removing '/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280-0.0.0-py3.10.egg-info' (and everything under it)
+[2.802s] Copying ../../../../build/mycobot_280/mycobot_280.egg-info to /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280-0.0.0-py3.10.egg-info
+[2.804s] running install_scripts
+[2.840s] Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.840s] Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.840s] Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.841s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[2.842s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_280/install.log'
+[2.883s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mycobot_280 build --build-base /home/tyler/colcon_ws/build/mycobot_280/build install --record /home/tyler/colcon_ws/build/mycobot_280/install.log --install-scripts $base/lib/mycobot_280 --single-version-externally-managed

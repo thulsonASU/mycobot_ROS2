@@ -1,0 +1,84 @@
+[5.921s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_280_x3pi': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280_x3pi/prefix_override:/home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280_x3pi/build
+[6.699s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.699s]   warnings.warn(
+[6.781s] running develop
+[6.781s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.782s]   warnings.warn(
+[6.792s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.793s]   warnings.warn(
+[7.320s] Removing /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot-280-x3pi.egg-link (link to .)
+[7.582s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_280_x3pi' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280_x3pi/prefix_override:/home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280_x3pi/build
+[7.584s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280_x3pi': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280_x3pi/prefix_override:/home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mycobot_280_x3pi build --build-base /home/tyler/colcon_ws/build/mycobot_280_x3pi/build install --record /home/tyler/colcon_ws/build/mycobot_280_x3pi/install.log --install-scripts $base/lib/mycobot_280_x3pi --single-version-externally-managed
+[8.063s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.063s]   warnings.warn(
+[8.078s] running egg_info
+[8.083s] writing ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/PKG-INFO
+[8.084s] writing dependency_links to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/dependency_links.txt
+[8.084s] writing entry points to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/entry_points.txt
+[8.084s] writing requirements to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/requires.txt
+[8.084s] writing top-level names to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/top_level.txt
+[8.086s] reading manifest file '../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/SOURCES.txt'
+[8.086s] adding license file 'LICENSE'
+[8.089s] writing manifest file '../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/SOURCES.txt'
+[8.089s] running build
+[8.089s] running build_py
+[8.090s] creating /home/tyler/colcon_ws/build/mycobot_280_x3pi/build
+[8.090s] creating /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib
+[8.090s] creating /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/detect_marker.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/follow_display.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/camera_display.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/opencv_camera.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.091s] copying mycobot_280_x3pi/listen_real.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.092s] copying mycobot_280_x3pi/teleop_keyboard.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.092s] copying mycobot_280_x3pi/__init__.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.093s] copying mycobot_280_x3pi/follow_and_pump.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.093s] copying mycobot_280_x3pi/slider_control.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.093s] copying mycobot_280_x3pi/following_marker.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.094s] copying mycobot_280_x3pi/simple_gui.py -> /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi
+[8.094s] running install
+[8.095s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.095s]   warnings.warn(
+[8.095s] running install_lib
+[8.095s] creating /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.096s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/detect_marker.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.096s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/follow_display.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.096s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/camera_display.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.097s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/opencv_camera.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.097s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.098s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/listen_real.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.098s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.099s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/__init__.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.099s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/follow_and_pump.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.099s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/slider_control.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.099s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/following_marker.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.099s] copying /home/tyler/colcon_ws/build/mycobot_280_x3pi/build/lib/mycobot_280_x3pi/simple_gui.py -> /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi
+[8.100s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/detect_marker.py to detect_marker.cpython-310.pyc
+[8.100s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/follow_display.py to follow_display.cpython-310.pyc
+[8.101s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/camera_display.py to camera_display.cpython-310.pyc
+[8.101s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/opencv_camera.py to opencv_camera.cpython-310.pyc
+[8.101s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[8.102s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/listen_real.py to listen_real.cpython-310.pyc
+[8.102s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[8.107s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/__init__.py to __init__.cpython-310.pyc
+[8.107s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+[8.111s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/slider_control.py to slider_control.cpython-310.pyc
+[8.112s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/following_marker.py to following_marker.cpython-310.pyc
+[8.112s] byte-compiling /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi/simple_gui.py to simple_gui.cpython-310.pyc
+[8.117s] running install_data
+[8.118s] running install_egg_info
+[8.121s] Copying ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi-0.0.0-py3.10.egg-info
+[8.123s] running install_scripts
+[8.165s] Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.165s] Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.166s] Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.166s] Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.167s] Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.167s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.168s] Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.168s] Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.168s] Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.168s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[8.169s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_280_x3pi/install.log'
+[8.687s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280_x3pi' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280_x3pi/prefix_override:/home/tyler/colcon_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mycobot_280_x3pi build --build-base /home/tyler/colcon_ws/build/mycobot_280_x3pi/build install --record /home/tyler/colcon_ws/build/mycobot_280_x3pi/install.log --install-scripts $base/lib/mycobot_280_x3pi --single-version-externally-managed

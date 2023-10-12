@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_cmake/srv/GetCoords_Request.msg

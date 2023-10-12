@@ -1,0 +1,50 @@
+[5.149s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_280jn': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280jn/prefix_override:/home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280jn/build --no-deps install_data
+[5.829s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.830s]   warnings.warn(
+[5.900s] running develop
+[5.901s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.901s]   warnings.warn(
+[5.905s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.905s]   warnings.warn(
+[6.271s] running egg_info
+[6.271s] creating mycobot_280jn.egg-info
+[6.271s] writing mycobot_280jn.egg-info/PKG-INFO
+[6.272s] writing dependency_links to mycobot_280jn.egg-info/dependency_links.txt
+[6.272s] writing entry points to mycobot_280jn.egg-info/entry_points.txt
+[6.272s] writing requirements to mycobot_280jn.egg-info/requires.txt
+[6.272s] writing top-level names to mycobot_280jn.egg-info/top_level.txt
+[6.273s] writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+[6.273s] reading manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+[6.273s] writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+[6.274s] running build_ext
+[6.274s] Creating /home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot-280jn.egg-link (link to .)
+[6.275s] Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.276s] Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.276s] Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.277s] Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.277s] Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.277s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.278s] Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.278s] Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.279s] Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.279s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+[6.279s] 
+[6.279s] Installed /home/tyler/colcon_ws/build/mycobot_280jn
+[6.279s] running install_data
+[6.280s] creating /home/tyler/colcon_ws/install/mycobot_280jn/share/ament_index
+[6.280s] creating /home/tyler/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index
+[6.280s] creating /home/tyler/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+[6.280s] copying resource/mycobot_280jn -> /home/tyler/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+[6.280s] copying package.xml -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn
+[6.281s] creating /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.281s] copying launch/teleop_keyboard.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.281s] copying launch/detect_marker.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.281s] copying launch/slider_control.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.281s] copying launch/test.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.281s] copying launch/simple_gui.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.282s] copying launch/mycobot_follow.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.282s] copying launch/detect_marker_with_topic.launch.py -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+[6.282s] creating /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config
+[6.282s] copying config/mycobot_jn.rviz -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config
+[6.283s] copying config/mycobot_with_marker.rviz -> /home/tyler/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config
+[6.697s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_280jn' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280jn/prefix_override:/home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280jn/build --no-deps install_data

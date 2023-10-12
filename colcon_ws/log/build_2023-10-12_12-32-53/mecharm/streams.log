@@ -1,0 +1,76 @@
+[6.085s] Invoking command in '/home/tyler/colcon_ws/build/mecharm': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm/prefix_override:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mecharm/build
+[6.770s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.771s]   warnings.warn(
+[6.843s] running develop
+[6.844s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.844s]   warnings.warn(
+[6.847s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.847s]   warnings.warn(
+[7.179s] Removing /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm.egg-link (link to .)
+[7.260s] Invoked command in '/home/tyler/colcon_ws/build/mecharm' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm/prefix_override:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mecharm/build
+[7.261s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mecharm/mecharm': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm/prefix_override:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mecharm build --build-base /home/tyler/colcon_ws/build/mecharm/build install --record /home/tyler/colcon_ws/build/mecharm/install.log --install-scripts $base/lib/mecharm --single-version-externally-managed
+[7.843s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.843s]   warnings.warn(
+[7.861s] running egg_info
+[7.865s] writing ../../../../build/mecharm/mecharm.egg-info/PKG-INFO
+[7.866s] writing dependency_links to ../../../../build/mecharm/mecharm.egg-info/dependency_links.txt
+[7.867s] writing entry points to ../../../../build/mecharm/mecharm.egg-info/entry_points.txt
+[7.867s] writing requirements to ../../../../build/mecharm/mecharm.egg-info/requires.txt
+[7.867s] writing top-level names to ../../../../build/mecharm/mecharm.egg-info/top_level.txt
+[7.868s] reading manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+[7.869s] adding license file 'LICENSE'
+[7.870s] writing manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+[7.871s] running build
+[7.871s] running build_py
+[7.871s] creating /home/tyler/colcon_ws/build/mecharm/build
+[7.872s] creating /home/tyler/colcon_ws/build/mecharm/build/lib
+[7.872s] creating /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.872s] copying mecharm/detect_marker.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/follow_display.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/listen_real.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/teleop_keyboard.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/__init__.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/follow_and_pump.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/slider_control.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/following_marker.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.873s] copying mecharm/simple_gui.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+[7.875s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.875s]   warnings.warn(
+[7.875s] running install
+[7.875s] running install_lib
+[7.877s] creating /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.879s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/detect_marker.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.879s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/follow_display.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.880s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.881s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/listen_real.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.882s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.883s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/__init__.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.883s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/follow_and_pump.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.884s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/slider_control.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.884s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/following_marker.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.884s] copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/simple_gui.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+[7.885s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/detect_marker.py to detect_marker.cpython-310.pyc
+[7.885s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/follow_display.py to follow_display.cpython-310.pyc
+[7.886s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[7.888s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/listen_real.py to listen_real.cpython-310.pyc
+[7.889s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[7.892s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/__init__.py to __init__.cpython-310.pyc
+[7.893s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+[7.895s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/slider_control.py to slider_control.cpython-310.pyc
+[7.897s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/following_marker.py to following_marker.cpython-310.pyc
+[7.899s] byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/simple_gui.py to simple_gui.cpython-310.pyc
+[7.905s] running install_data
+[7.908s] running install_egg_info
+[7.916s] Copying ../../../../build/mecharm/mecharm.egg-info to /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm-0.0.0-py3.10.egg-info
+[7.916s] running install_scripts
+[7.957s] Installing detect_marker script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.957s] Installing follow_display script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.957s] Installing following_marker script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.957s] Installing listen_real script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.958s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.958s] Installing simple_gui script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.958s] Installing slider_control script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.960s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+[7.960s] writing list of installed files to '/home/tyler/colcon_ws/build/mecharm/install.log'
+[8.037s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mecharm/mecharm' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/mecharm/prefix_override:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mecharm build --build-base /home/tyler/colcon_ws/build/mecharm/build install --record /home/tyler/colcon_ws/build/mecharm/install.log --install-scripts $base/lib/mecharm --single-version-externally-managed

@@ -1,0 +1,57 @@
+[5.905s] Invoking command in '/home/tyler/colcon_ws/build/myarm_300': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/myarm_300/prefix_override:/home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/myarm_300/build
+[6.736s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.736s]   warnings.warn(
+[6.818s] running develop
+[6.818s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.819s]   warnings.warn(
+[6.822s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.823s]   warnings.warn(
+[7.348s] Removing /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm-300.egg-link (link to .)
+[7.440s] Invoked command in '/home/tyler/colcon_ws/build/myarm_300' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/myarm_300/prefix_override:/home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/myarm_300/build
+[7.441s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/myArm/myarm_300': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/myarm_300/prefix_override:/home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/tyler/colcon_ws/build/myarm_300/build install --record /home/tyler/colcon_ws/build/myarm_300/install.log --install-scripts $base/lib/myarm_300 --single-version-externally-managed
+[8.167s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.169s]   warnings.warn(
+[8.188s] running egg_info
+[8.190s] writing ../../../../build/myarm_300/myarm_300.egg-info/PKG-INFO
+[8.191s] writing dependency_links to ../../../../build/myarm_300/myarm_300.egg-info/dependency_links.txt
+[8.191s] writing entry points to ../../../../build/myarm_300/myarm_300.egg-info/entry_points.txt
+[8.191s] writing requirements to ../../../../build/myarm_300/myarm_300.egg-info/requires.txt
+[8.192s] writing top-level names to ../../../../build/myarm_300/myarm_300.egg-info/top_level.txt
+[8.196s] reading manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[8.196s] adding license file 'LICENSE'
+[8.198s] writing manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[8.201s] running build
+[8.201s] running build_py
+[8.202s] creating /home/tyler/colcon_ws/build/myarm_300/build
+[8.204s] creating /home/tyler/colcon_ws/build/myarm_300/build/lib
+[8.204s] creating /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.205s] copying myarm_300/follow_display.py -> /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.205s] copying myarm_300/teleop_keyboard.py -> /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.205s] copying myarm_300/__init__.py -> /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.206s] copying myarm_300/slider_control.py -> /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.207s] copying myarm_300/simple_gui.py -> /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300
+[8.207s] running install
+[8.207s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.208s]   warnings.warn(
+[8.208s] running install_lib
+[8.208s] creating /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.209s] copying /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300/follow_display.py -> /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.209s] copying /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300/teleop_keyboard.py -> /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.209s] copying /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300/__init__.py -> /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.209s] copying /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300/slider_control.py -> /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.209s] copying /home/tyler/colcon_ws/build/myarm_300/build/lib/myarm_300/simple_gui.py -> /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300
+[8.210s] byte-compiling /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300/follow_display.py to follow_display.cpython-310.pyc
+[8.211s] byte-compiling /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[8.216s] byte-compiling /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300/__init__.py to __init__.cpython-310.pyc
+[8.216s] byte-compiling /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300/slider_control.py to slider_control.cpython-310.pyc
+[8.217s] byte-compiling /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300/simple_gui.py to simple_gui.cpython-310.pyc
+[8.224s] running install_data
+[8.227s] running install_egg_info
+[8.230s] Copying ../../../../build/myarm_300/myarm_300.egg-info to /home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages/myarm_300-0.0.0-py3.10.egg-info
+[8.235s] running install_scripts
+[8.287s] Installing follow_display script to /home/tyler/colcon_ws/install/myarm_300/lib/myarm_300
+[8.287s] Installing simple_gui script to /home/tyler/colcon_ws/install/myarm_300/lib/myarm_300
+[8.287s] Installing slider_control script to /home/tyler/colcon_ws/install/myarm_300/lib/myarm_300
+[8.287s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/myarm_300/lib/myarm_300
+[8.288s] writing list of installed files to '/home/tyler/colcon_ws/build/myarm_300/install.log'
+[8.599s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/myArm/myarm_300' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/myarm_300/prefix_override:/home/tyler/colcon_ws/install/myarm_300/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/tyler/colcon_ws/build/myarm_300/build install --record /home/tyler/colcon_ws/build/myarm_300/install.log --install-scripts $base/lib/myarm_300 --single-version-externally-managed

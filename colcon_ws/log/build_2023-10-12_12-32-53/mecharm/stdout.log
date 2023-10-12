@@ -1,0 +1,62 @@
+running develop
+Removing /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm.egg-link (link to .)
+running egg_info
+writing ../../../../build/mecharm/mecharm.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mecharm/mecharm.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mecharm/mecharm.egg-info/entry_points.txt
+writing requirements to ../../../../build/mecharm/mecharm.egg-info/requires.txt
+writing top-level names to ../../../../build/mecharm/mecharm.egg-info/top_level.txt
+reading manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tyler/colcon_ws/build/mecharm/build
+creating /home/tyler/colcon_ws/build/mecharm/build/lib
+creating /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/detect_marker.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/follow_display.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/listen_real.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/teleop_keyboard.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/__init__.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/follow_and_pump.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/slider_control.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/following_marker.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+copying mecharm/simple_gui.py -> /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm
+running install
+running install_lib
+creating /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/detect_marker.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/follow_display.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/listen_real.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/__init__.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/follow_and_pump.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/slider_control.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/following_marker.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+copying /home/tyler/colcon_ws/build/mecharm/build/lib/mecharm/simple_gui.py -> /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/detect_marker.py to detect_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/follow_display.py to follow_display.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/listen_real.py to listen_real.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/slider_control.py to slider_control.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/following_marker.py to following_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm/simple_gui.py to simple_gui.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/mecharm/mecharm.egg-info to /home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_marker script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing follow_display script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing following_marker script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing listen_real script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing simple_gui script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing slider_control script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mecharm/lib/mecharm
+writing list of installed files to '/home/tyler/colcon_ws/build/mecharm/install.log'

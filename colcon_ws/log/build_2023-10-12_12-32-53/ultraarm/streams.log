@@ -1,0 +1,60 @@
+[7.003s] Invoking command in '/home/tyler/colcon_ws/build/ultraarm': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/ultraarm/prefix_override:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/ultraarm/build
+[7.589s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.590s]   warnings.warn(
+[7.651s] running develop
+[7.652s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.652s]   warnings.warn(
+[7.655s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.655s]   warnings.warn(
+[8.147s] Removing /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm.egg-link (link to .)
+[8.224s] Invoked command in '/home/tyler/colcon_ws/build/ultraarm' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/ultraarm/prefix_override:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/ultraarm/build
+[8.230s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/ultraArm/ultraarm': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/ultraarm/prefix_override:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ultraarm build --build-base /home/tyler/colcon_ws/build/ultraarm/build install --record /home/tyler/colcon_ws/build/ultraarm/install.log --install-scripts $base/lib/ultraarm --single-version-externally-managed
+[8.864s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.865s]   warnings.warn(
+[8.881s] running egg_info
+[8.882s] writing ../../../../build/ultraarm/ultraarm.egg-info/PKG-INFO
+[8.883s] writing dependency_links to ../../../../build/ultraarm/ultraarm.egg-info/dependency_links.txt
+[8.883s] writing entry points to ../../../../build/ultraarm/ultraarm.egg-info/entry_points.txt
+[8.884s] writing requirements to ../../../../build/ultraarm/ultraarm.egg-info/requires.txt
+[8.885s] writing top-level names to ../../../../build/ultraarm/ultraarm.egg-info/top_level.txt
+[8.887s] reading manifest file '../../../../build/ultraarm/ultraarm.egg-info/SOURCES.txt'
+[8.889s] writing manifest file '../../../../build/ultraarm/ultraarm.egg-info/SOURCES.txt'
+[8.890s] running build
+[8.890s] running build_py
+[8.890s] creating /home/tyler/colcon_ws/build/ultraarm/build
+[8.890s] creating /home/tyler/colcon_ws/build/ultraarm/build/lib
+[8.891s] creating /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.891s] copying ultraarm/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.891s] copying ultraarm/listen_real.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.891s] copying ultraarm/teleop_keyboard.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.892s] copying ultraarm/__init__.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.892s] copying ultraarm/slider_control.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.892s] copying ultraarm/simple_gui.py -> /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm
+[8.892s] running install
+[8.893s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.893s]   warnings.warn(
+[8.893s] running install_lib
+[8.895s] creating /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.895s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.896s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/listen_real.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.896s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/teleop_keyboard.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.896s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/__init__.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.896s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/slider_control.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.896s] copying /home/tyler/colcon_ws/build/ultraarm/build/lib/ultraarm/simple_gui.py -> /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm
+[8.899s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[8.901s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/listen_real.py to listen_real.cpython-310.pyc
+[8.901s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[8.902s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/__init__.py to __init__.cpython-310.pyc
+[8.902s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/slider_control.py to slider_control.cpython-310.pyc
+[8.905s] byte-compiling /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm/simple_gui.py to simple_gui.cpython-310.pyc
+[8.910s] running install_data
+[8.911s] running install_egg_info
+[8.915s] Copying ../../../../build/ultraarm/ultraarm.egg-info to /home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm-0.0.0-py3.10.egg-info
+[8.916s] running install_scripts
+[8.963s] Installing listen_real script to /home/tyler/colcon_ws/install/ultraarm/lib/ultraarm
+[8.966s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/ultraarm/lib/ultraarm
+[8.971s] Installing simple_gui script to /home/tyler/colcon_ws/install/ultraarm/lib/ultraarm
+[8.972s] Installing slider_control script to /home/tyler/colcon_ws/install/ultraarm/lib/ultraarm
+[8.972s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/ultraarm/lib/ultraarm
+[8.974s] writing list of installed files to '/home/tyler/colcon_ws/build/ultraarm/install.log'
+[9.156s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/ultraArm/ultraarm' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/colcon_ws/build/ultraarm/prefix_override:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ultraarm build --build-base /home/tyler/colcon_ws/build/ultraarm/build install --record /home/tyler/colcon_ws/build/ultraarm/install.log --install-scripts $base/lib/ultraarm --single-version-externally-managed

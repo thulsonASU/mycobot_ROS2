@@ -1,0 +1,1 @@
+/home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp

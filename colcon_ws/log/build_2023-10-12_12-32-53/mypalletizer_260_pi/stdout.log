@@ -1,0 +1,65 @@
+running develop
+Removing /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer-260-pi.egg-link (link to .)
+running egg_info
+writing ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/entry_points.txt
+writing requirements to ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/requires.txt
+writing top-level names to ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/top_level.txt
+reading manifest file '../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tyler/colcon_ws/build/mypalletizer_260_pi/build
+creating /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib
+creating /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/follow_display.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/listen_real_of_topic.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/listen_real.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/teleop_keyboard.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/__init__.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/follow_and_pump.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/slider_control.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/following_marker.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/simple_gui.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/test.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+copying mypalletizer_260_pi/mypalletizersocket.py -> /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi
+running install
+running install_lib
+creating /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/follow_display.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/listen_real.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/__init__.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/follow_and_pump.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/slider_control.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/following_marker.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/simple_gui.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/test.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+copying /home/tyler/colcon_ws/build/mypalletizer_260_pi/build/lib/mypalletizer_260_pi/mypalletizersocket.py -> /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/follow_display.py to follow_display.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/listen_real.py to listen_real.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/slider_control.py to slider_control.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/following_marker.py to following_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/simple_gui.py to simple_gui.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/test.py to test.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi/mypalletizersocket.py to mypalletizersocket.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/mypalletizer_260_pi/mypalletizer_260_pi.egg-info to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer_260_pi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_marker script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing follow_display script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing following_marker script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing listen_real script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing simple_gui script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing slider_control script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+writing list of installed files to '/home/tyler/colcon_ws/build/mypalletizer_260_pi/install.log'
