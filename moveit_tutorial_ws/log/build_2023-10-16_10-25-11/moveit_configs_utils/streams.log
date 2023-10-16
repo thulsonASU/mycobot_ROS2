@@ -1,0 +1,58 @@
+[2.342s] Invoking command in '/home/tyler/mycobot_ROS2/moveit_tutorial_ws/src/moveit2/moveit_configs_utils': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/prefix_override:/home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build install --record /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/install.log --single-version-externally-managed
+[3.218s] running egg_info
+[3.219s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[3.219s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[3.220s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[3.221s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[3.221s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[3.221s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[3.222s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.226s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.228s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.229s] running build
+[3.229s] running build_py
+[3.229s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build
+[3.229s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib
+[3.230s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.230s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.230s] copying moveit_configs_utils/launch_utils.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.230s] copying moveit_configs_utils/__init__.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.230s] copying moveit_configs_utils/launches.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.231s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.231s] copying moveit_configs_utils/substitutions/__init__.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.231s] copying moveit_configs_utils/substitutions/xacro.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.232s] running install
+[3.232s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.232s]   warnings.warn(
+[3.233s] running install_lib
+[3.234s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[3.235s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[3.236s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[3.236s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[3.237s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[3.237s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[3.237s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[3.238s] copying /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[3.238s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[3.245s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[3.246s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[3.247s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[3.248s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[3.249s] byte-compiling /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[3.250s] running install_data
+[3.252s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/ament_index
+[3.252s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/ament_index/resource_index
+[3.252s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.252s] copying resource/moveit_configs_utils -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.253s] copying package.xml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[3.253s] creating /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.253s] copying default_configs/chomp_planning.yaml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.254s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.254s] copying default_configs/ompl_defaults.yaml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.254s] copying default_configs/stomp_planning.yaml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.254s] copying default_configs/ompl_planning.yaml -> /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.254s] running install_egg_info
+[3.259s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.8.0-py3.10.egg-info
+[3.261s] running install_scripts
+[3.305s] writing list of installed files to '/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/install.log'
+[3.637s] Invoked command in '/home/tyler/mycobot_ROS2/moveit_tutorial_ws/src/moveit2/moveit_configs_utils' returned '0': MYSQL_PS1=(\u@\h) [\d]> PYTHONPATH=/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/prefix_override:/home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/build install --record /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_configs_utils/install.log --single-version-externally-managed

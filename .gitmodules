@@ -1,3 +1,6 @@
 [submodule "colcon_ws/src/mycobot_ros2"]
 	path = colcon_ws/src/mycobot_ros2
 	url = https://github.com/elephantrobotics/mycobot_ros2.git
+[submodule "moveit_tutorial_ws/src/moveit2_tutorials"]
+	path = moveit_tutorial_ws/src/moveit2_tutorials
+	url = https://github.com/ros-planning/moveit2_tutorials

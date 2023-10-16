@@ -1,0 +1,6 @@
+[ 10%] Built target moveit_lazy_free_space_updater
+[ 20%] Built target moveit_point_containment_filter
+[ 25%] [32mBuilding CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o[0m
+[ 55%] Built target moveit_mesh_filter
+[ 60%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater_core.dir/src/pointcloud_octomap_updater.cpp.o[0m
+[ 65%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/src/depth_image_octomap_updater.cpp.o[0m
