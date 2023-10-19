@@ -1,6 +1,0 @@
-[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
-[ 23%] Built target gtest_main
-[ 30%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/locked_robot_state.cpp.o[0m
-[ 38%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
-[ 46%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options.cpp.o[0m
-[ 53%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m

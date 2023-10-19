@@ -1,7 +1,0 @@
-[0mmoveit_task_constructor_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
-                 from [01m[K/home/tyler/mycobot_ROS2/moveit_tutorial_ws/src/moveit_task_constructor/core/src/properties.cpp:42[m[K:
-[01m[K/home/tyler/mycobot_ROS2/moveit_tutorial_ws/src/moveit_task_constructor/core/src/properties.cpp:[m[K In member function ‘[01m[Kconst moveit::task_constructor::PropertyTypeRegistry::Entry& moveit::task_constructor::PropertyTypeRegistry::entry(const std::type_index&) const[m[K’:
-[01m[K/home/tyler/mycobot_ROS2/moveit_tutorial_ws/src/moveit_task_constructor/core/src/properties.cpp:78:75:[m[K [01;35m[Kwarning: [m[Kuse of old-style cast to ‘[01m[Krcutils_duration_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-cast-Wold-style-cast]8;;[m[K]
-   78 |                         RCLCPP_WARN_STREAM_THROTTLE(LOGGER, steady_clock, [01;35m[K10'000[m[K,
-      |                                                                           [01;35m[K^~~~~~[m[K

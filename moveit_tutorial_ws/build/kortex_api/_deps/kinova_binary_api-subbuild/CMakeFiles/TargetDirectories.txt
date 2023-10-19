@@ -1,3 +1,0 @@
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/kinova_binary_api-populate.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/edit_cache.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/rebuild_cache.dir

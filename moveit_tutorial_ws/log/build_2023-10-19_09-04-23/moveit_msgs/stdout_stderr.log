@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.4.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.1 (/opt/ros/rolling/share/action_msgs/cmake)
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+-- Found object_recognition_msgs: 2.0.0 (/opt/ros/humble/share/object_recognition_msgs/cmake)
+-- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+-- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_msgs
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_copy_moveit_msgs
+running egg_info
+creating moveit_msgs.egg-info
+writing moveit_msgs.egg-info/PKG-INFO
+writing dependency_links to moveit_msgs.egg-info/dependency_links.txt
+writing top-level names to moveit_msgs.egg-info/top_level.txt
+writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+reading manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_moveit_msgs_egg
+Traceback (most recent call last):
+  File "/opt/ros/rolling/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+  File "/opt/ros/rolling/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/opt/ros/rolling/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+    with include_path.open('r') as include_file:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/ros/humble/share/shape_msgs/msg/Plane.json'
+gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_generator_type_description.dir/build.make:227: rosidl_generator_type_description/moveit_msgs/msg/AllowedCollisionEntry.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/moveit_msgs__rosidl_generator_type_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

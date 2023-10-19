@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+                //modified for VScode and shit :D
+                "/home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/include",
+                "/home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/include/ament_cmake",
+                "/home/tyler/mycobot_ROS2/moveit_tutorial_ws/install/include/rclcpp",
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

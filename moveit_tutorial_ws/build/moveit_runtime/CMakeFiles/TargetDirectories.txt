@@ -1,8 +1,0 @@
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/uninstall.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/moveit_runtime_uninstall.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/test.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/edit_cache.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/rebuild_cache.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/list_install_components.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/install.dir
-/home/tyler/mycobot_ROS2/moveit_tutorial_ws/build/moveit_runtime/CMakeFiles/install/local.dir

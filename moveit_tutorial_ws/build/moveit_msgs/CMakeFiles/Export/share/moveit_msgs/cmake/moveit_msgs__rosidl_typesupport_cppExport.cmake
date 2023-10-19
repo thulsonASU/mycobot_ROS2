@@ -54,7 +54,7 @@ endif()
 add_library(moveit_msgs::moveit_msgs__rosidl_typesupport_cpp SHARED IMPORTED)
 
 set_target_properties(moveit_msgs::moveit_msgs__rosidl_typesupport_cpp PROPERTIES
-  INTERFACE_LINK_LIBRARIES "moveit_msgs::moveit_msgs__rosidl_generator_cpp;action_msgs::action_msgs__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;std_msgs::std_msgs__rosidl_typesupport_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;shape_msgs::shape_msgs__rosidl_typesupport_cpp;object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_cpp;octomap_msgs::octomap_msgs__rosidl_typesupport_cpp;trajectory_msgs::trajectory_msgs__rosidl_typesupport_cpp"
+  INTERFACE_LINK_LIBRARIES "moveit_msgs::moveit_msgs__rosidl_generator_c;moveit_msgs::moveit_msgs__rosidl_generator_cpp;action_msgs::action_msgs__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;service_msgs::service_msgs__rosidl_typesupport_cpp;std_msgs::std_msgs__rosidl_typesupport_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;shape_msgs::shape_msgs__rosidl_typesupport_cpp;object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_cpp;octomap_msgs::octomap_msgs__rosidl_typesupport_cpp;trajectory_msgs::trajectory_msgs__rosidl_typesupport_cpp"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
@@ -93,7 +93,7 @@ unset(_IMPORT_CHECK_TARGETS)
 # Make sure the targets which have been exported in some other
 # export set exist.
 unset(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets)
-foreach(_target "moveit_msgs::moveit_msgs__rosidl_generator_cpp" )
+foreach(_target "moveit_msgs::moveit_msgs__rosidl_generator_c" "moveit_msgs::moveit_msgs__rosidl_generator_cpp" )
   if(NOT TARGET "${_target}" )
     set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets "${${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets} ${_target}")
   endif()
