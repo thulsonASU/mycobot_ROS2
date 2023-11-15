@@ -21,3 +21,5 @@ trajectory_
 effect_on_success_
 
 https://colcon.readthedocs.io/en/released/reference/verb/build.html
+
+# Abandonded due to python API being relatively new and outside of my scope to debug
